@@ -18,7 +18,7 @@ module.exports = (a,b,c) => {
         },
         output: {
             path: path.resolve(__dirname, "./build"),
-            filename: "bundle.js",
+            filename: "static/bundle.js",
         },
         plugins: [new HtmlWebpackPlugin({template: "./template.html", inject: true})],
     });

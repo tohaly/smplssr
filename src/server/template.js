@@ -4,7 +4,7 @@ export const template = `
 <head>
   <meta charset="UTF-8" />
   <title>Title</title>
-  <script defer src='bundle.js'></script>
+  <script defer src='/static/bundle.js'></script>
 </head>
 <body>
 <div id='root'>{{root}}</div>

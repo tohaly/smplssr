@@ -7,5 +7,10 @@ const rootElement = document.getElementById('root')
 
 hydrateRoot(
     rootElement,
-    <App />
+    <App />,
+    {
+        onRecoverableError: () => {
+            console.error('Recoverable error');
+        }
+    }
 );
